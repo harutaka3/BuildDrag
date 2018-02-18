@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{19E179BF-15A0-A185-3096-476A702976A5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Full v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Editor:5</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>5.4.0f3</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_0;UNITY_5_4;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_0;UNITY_5_4;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>E:/haru/UnityInstallFolders/Unity5403/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>E:/haru/UnityInstallFolders/Unity5403/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Advertisements">
+      <HintPath>E:/haru/UnityInstallFolders/Unity5403/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>E:/haru/UnityInstallFolders/Unity5403/Editor/Data/UnityExtensions/Unity/EditorTestsRunner/Editor/nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.EditorTestsRunner">
+      <HintPath>E:/haru/UnityInstallFolders/Unity5403/Editor/Data/UnityExtensions/Unity/EditorTestsRunner/Editor/UnityEditor.EditorTestsRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>E:/haru/UnityInstallFolders/Unity5403/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>E:/haru/UnityInstallFolders/Unity5403/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>E:/haru/UnityInstallFolders/Unity5403/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Networking">
+      <HintPath>E:/haru/UnityInstallFolders/Unity5403/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TreeEditor">
+      <HintPath>E:/haru/UnityInstallFolders/Unity5403/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="BulletXNA-Unity">
+      <HintPath>Assets/BulletXNA/BulletXNA-Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="MMD4MecanimInternal">
+      <HintPath>Assets/MMD4Mecanim/Scripts/Internal/MMD4MecanimInternal.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Graphs">
+      <HintPath>E:/haru/UnityInstallFolders/Unity5403/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Android.Extensions">
+      <HintPath>E:/haru/UnityInstallFolders/Unity5403/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions">
+      <HintPath>E:/haru/UnityInstallFolders/Unity5403/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+      <HintPath>E:/haru/UnityInstallFolders/Unity5403/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
+      <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>E:/haru/UnityInstallFolders/Unity5403/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Common">
+      <HintPath>E:/haru/UnityInstallFolders/Unity5403/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="TouhouChase.Plugins.csproj">
+      <Project>{1C8D6B51-B48A-F597-D34E-32E8058F5910}</Project>
+      <Name>TouhouChase.Plugins</Name>
+    </ProjectReference>
+    <ProjectReference Include="TouhouChase.csproj">
+      <Project>{25A857D0-B039-7A3E-77FF-8D17A6DF551E}</Project>
+      <Name>TouhouChase</Name>
+    </ProjectReference>
+    <ProjectReference Include="TouhouChase.unityproj">
+      <Project>{25A857D0-B039-7A3E-77FF-8D17A6DF551E}</Project>
+      <Name>TouhouChase</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Cartoon FX\Editor\CFXEasyEditor.cs" />
+    <Compile Include="Assets\Cartoon FX\Editor\CFX_SpawnSystemEditor.cs" />
+    <Compile Include="Assets\MMD4Mecanim\Editor\MMD4MecanimAnimMorphHelperInspector.cs" />
+    <Compile Include="Assets\MMD4Mecanim\Editor\MMD4MecanimAssetPostprocessor.cs" />
+    <Compile Include="Assets\MMD4Mecanim\Editor\MMD4MecanimBoneInspector.cs" />
+    <Compile Include="Assets\MMD4Mecanim\Editor\MMD4MecanimEditorCommon.cs" />
+    <Compile Include="Assets\MMD4Mecanim\Editor\MMD4MecanimImporter.cs" />
+    <Compile Include="Assets\MMD4Mecanim\Editor\MMD4MecanimImporterAnimations.cs" />
+    <Compile Include="Assets\MMD4Mecanim\Editor\MMD4MecanimImporterEditor.cs" />
+    <Compile Include="Assets\MMD4Mecanim\Editor\MMD4MecanimImporterInspector.cs" />
+    <Compile Include="Assets\MMD4Mecanim\Editor\MMD4MecanimImporterMaterial.cs" />
+    <Compile Include="Assets\MMD4Mecanim\Editor\MMD4MecanimImporterPMX2FBX.cs" />
+    <Compile Include="Assets\MMD4Mecanim\Editor\MMD4MecanimImporterRig.cs" />
+    <Compile Include="Assets\MMD4Mecanim\Editor\MMD4MecanimMaterialInspector.cs" />
+    <Compile Include="Assets\MMD4Mecanim\Editor\MMD4MecanimModelInspector.cs" />
+    <Compile Include="Assets\MMD4Mecanim\Editor\MMD4MecanimRigidBodyInspector.cs" />
+    <Compile Include="Assets\Pixelplacement\iTweenPath\Editor\iTweenPathEditor.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Cartoon FX\CartoonFX Readme.txt" />
+    <None Include="Assets\Cartoon FX\CartoonFX Releases Notes.txt" />
+    <None Include="Assets\Cartoon FX\Demo\Assets\CFX_Demo_WaterWiggle.shader" />
+    <None Include="Assets\Cartoon FX\Shaders (Mobile)\CFXM_MobileParticleAdd_Alpha8.shader" />
+    <None Include="Assets\FX Mega Pack\FX Mega Pack - Readme.txt" />
+    <None Include="Assets\KomeijiSatori\KomeijiSatoriM4_MMD.xml" />
+    <None Include="Assets\KomeijiSatori\ReadMe.txt" />
+    <None Include="Assets\KomeijiSatori\ReadMe_ENGLISH.txt" />
+    <None Include="Assets\KomeijiSatori\古明地さとり.MMD4Mecanim.xml" />
+    <None Include="Assets\MMD4Mecanim\Editor\PMX2FBX\pmx2fbx.xml" />
+    <None Include="Assets\MMD4Mecanim\Editor\Revision.txt" />
+    <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-AutoLight.cginc" />
+    <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-BothFaces-Edge.shader" />
+    <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-BothFaces-Transparent-Edge.shader" />
+    <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-BothFaces-Transparent.shader" />
+    <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-BothFaces.shader" />
+    <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Dummy.shader" />
+    <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Edge.shader" />
+    <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Lighting.cginc" />
+    <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-NEXTEdge-ForwardBase.cginc" />
+    <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-NEXTEdge-Lighting.cginc" />
+    <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-NEXTEdge-Pass4.shader" />
+    <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-NEXTEdge-Pass8.shader" />
+    <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-NoShadowCasting-BothFaces-Edge.shader" />
+    <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-NoShadowCasting-BothFaces-Transparent-Edge.shader" />
+    <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-NoShadowCasting-BothFaces-Transparent.shader" />
+    <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-NoShadowCasting-BothFaces.shader" />
+    <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-NoShadowCasting-Edge.shader" />
+    <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-NoShadowCasting-Transparent-Edge.shader" />
+    <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-NoShadowCasting-Transparent.shader" />
+    <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-NoShadowCasting.shader" />
+    <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Surface-ForwardAdd.cginc" />
+    <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Surface-ForwardBase.cginc" />
+    <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Surface-Lighting.cginc" />
+    <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Surface-ShadowCaster.cginc" />
+    <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Surface-ShadowCollector.cginc" />
+    <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-SurfaceEdge-ForwardAdd.cginc" />
+    <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-SurfaceEdge-ForwardBase.cginc" />
+    <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-SurfaceEdge-Lighting.cginc" />
+    <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Transparent-Edge.shader" />
+    <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit-Transparent.shader" />
+    <None Include="Assets\MMD4Mecanim\Shaders\MMD4Mecanim-MMDLit.shader" />
+    <None Include="Assets\Plugins\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\博麗霊夢(baトルっpoい)\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\博麗霊夢\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\古明地こいし\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\古明地こいし（baトルっpoい）\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\古明地さとり\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\古明地さとり（baトルっpoい）\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\射命丸文(baトルっpoい)\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\射命丸文\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\鈴仙・優曇華院・イナba(baトルっpoい)\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\鈴仙・優曇華院・イナba(深秘録ver)\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\鈴仙・優曇華院・イナba\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\鍵山雛(baトルっpoい)\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\鍵山雛\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\霊烏路空(baトルっpoい)\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\霊烏路空\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\霧雨魔理沙(baトルっpoい)\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\霧雨魔理沙\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\高麗野あうん(baトルっpoい)\ご一読下さい.txt" />
+    <None Include="Assets\Resources\東方キャラ素材\高麗野あうん\ご一読下さい.txt" />
+    <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
+    <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
+    <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
+    <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
+    <None Include="Assets\iizoVual_library\なんか.txt" />
+    <None Include="Assets\iizo紅魔館図書館\readme読んで～.txt" />
+    <None Include="Assets\kouma紅魔館廊下\紅魔館廊下24.MMD4Mecanim.xml" />
+    <None Include="Assets\kouma紅魔館廊下\紅魔館廊下8.MMD4Mecanim.xml" />
+    <None Include="Assets\sita霊烏路空v1.22_PMX版\はじめにお読みください(霊烏路空Ver1.22).txt" />
+    <None Include="Assets\sita霊烏路空v1.22_PMX版\霊烏路空.MMD4Mecanim.xml" />
+    <None Include="Assets\sita霊烏路空v1.22_PMX版\霊烏路空.xml" />
+    <None Include="Assets\博麗霊夢\博麗霊夢.MMD4Mecanim.xml" />
+    <None Include="Assets\博麗霊夢\霊夢.xml" />
+    <None Include="Assets\古明地こいしv4.10\_readme_eng.txt" />
+    <None Include="Assets\古明地こいしv4.10\_readmeこいし.txt" />
+    <None Include="Assets\古明地こいしv4.10\古明地こいしv4.10.MMD4Mecanim.xml" />
+    <None Include="Assets\古明地こいしv4.10\古明地こいしv4.10.xml" />
+    <None Include="Assets\各動作\説明.txt" />
+    <None Include="Assets\射命丸文Ver.2.1a\readme.txt" />
+    <None Include="Assets\射命丸文Ver.2.1a\射命丸文＋羽.MMD4Mecanim.xml" />
+    <None Include="Assets\射命丸文Ver.2.1a\射命丸文＋羽.xml" />
+    <None Include="Assets\弾幕制作用モデル ver.2.0\Read me.txt" />
+    <None Include="Assets\弾幕制作用モデル ver.2.0\クナイ弾幕 ver2.0\Materials\クナイ弾幕(赤) ver.2.0.MMD4Mecanim.xml" />
+    <None Include="Assets\弾幕制作用モデル ver.2.0\クナイ弾幕 ver2.0\クナイ弾幕(赤) ver.2.0.xml" />
+    <None Include="Assets\弾幕制作用モデル ver.2.0\レーザー1 ver.1.0\New Folder\レーザー1(水) ver.1.0.MMD4Mecanim.xml" />
+    <None Include="Assets\弾幕制作用モデル ver.2.0\レーザー1 ver.1.0\レーザー1(水) ver.1.0.xml" />
+    <None Include="Assets\弾幕制作用モデル ver.2.0\レーザー2 ver.1.0\memo.txt" />
+    <None Include="Assets\弾幕制作用モデル ver.2.0\レーザー2 ver.1.0\レーザー2(桜) ver.1.0.MMD4Mecanim.xml" />
+    <None Include="Assets\弾幕制作用モデル ver.2.0\レーザー2 ver.1.0\レーザー2(桜) ver.1.0.xml" />
+    <None Include="Assets\弾幕制作用モデル ver.2.0\星弾幕 ver.2.0\New Folder\星弾幕(青) ver.2.0.MMD4Mecanim.xml" />
+    <None Include="Assets\弾幕制作用モデル ver.2.0\星弾幕 ver.2.0\星弾幕(青) ver.2.0.xml" />
+    <None Include="Assets\弾幕制作用モデル ver.2.0\水晶弾幕 ver.2.0\memo.txt" />
+    <None Include="Assets\弾幕制作用モデル ver.2.0\結晶弾幕 ver.2.0\memo.txt" />
+    <None Include="Assets\弾幕制作用モデル ver.2.0\蝶弾幕 ver.2.0\memo.txt" />
+    <None Include="Assets\鈴仙・優曇華院・イナバver0.93\readme.txt" />
+    <None Include="Assets\鈴仙・優曇華院・イナバver0.93\鈴仙・優曇華院・イナバ_玉.MMD4Mecanim.xml" />
+    <None Include="Assets\鈴仙・優曇華院・イナバver0.93\鈴仙・優曇華院・イナバ_玉.xml" />
+    <None Include="Assets\鍵山雛Ver1.20\鍵山雛Ver1.20\readme.txt" />
+    <None Include="Assets\鍵山雛Ver1.20\鍵山雛Ver1.20\雛Ver1.20.MMD4Mecanim.xml" />
+    <None Include="Assets\鍵山雛Ver1.20\鍵山雛Ver1.20\雛Ver1.20.xml" />
+    <None Include="Assets\霧雨魔理沙R\霧雨魔理沙1.MMD4Mecanim.xml" />
+    <None Include="Assets\霧雨魔理沙R\霧雨魔理沙1.xml" />
+    <None Include="Assets\高麗野あうんver0.92a\readme.txt" />
+    <None Include="Assets\高麗野あうんver0.92a\高麗野あうん.MMD4Mecanim.xml" />
+    <None Include="Assets\高麗野あうんver0.92a\高麗野あうん.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>
